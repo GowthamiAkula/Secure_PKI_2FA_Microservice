@@ -1,8 +1,14 @@
 import base64
 import subprocess
+import sys
 from pathlib import Path
 
 from cryptography.hazmat.primitives import serialization
+
+# Ensure project root is on sys.path
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT))
+
 from crypto_utils import sign_message, encrypt_with_public_key
 
 
@@ -38,3 +44,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
