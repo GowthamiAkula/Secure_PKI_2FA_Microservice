@@ -1,11 +1,3 @@
-Got it 👍
-Your content is **already very close to proper Markdown**, but it looks like GitHub is interpreting some parts as plain text (showing `*`, `#`, etc.) because of **missing formatting for code blocks, lists, and headings**.
-
-Below is a **clean, GitHub-ready `README.md` version** of what you shared. You can **copy–paste this directly** into your `README.md` file and it will render nicely.
-
----
-
-```markdown
 # 🔐 Secure PKI-Based 2FA Microservice
 
 A containerized microservice that implements **secure two-factor authentication (2FA)** using **public-key cryptography (RSA)** and **TOTP codes**, built with **FastAPI** and **Docker**.
@@ -124,4 +116,3 @@ http://localhost:8080
 
 **Student Project – Secure Authentication Systems**
 
-````
