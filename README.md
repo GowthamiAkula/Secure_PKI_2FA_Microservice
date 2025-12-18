@@ -112,7 +112,3 @@ http://localhost:8080
 
 ---
 
-## 📌 Author
-
-**Student Project – Secure Authentication Systems**
-
